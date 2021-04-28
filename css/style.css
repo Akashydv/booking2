@@ -11,6 +11,12 @@
     margin-bottom: 7vw;
     z-index: 1000;
 }
+.main-section span{ 
+    margin-left: 2vw;
+    font-weight: 700;
+    font-size: 12px;
+    vertical-align: middle;
+}
 .main-section .booking{
     position: relative;
     background-color: #62c471;
@@ -58,6 +64,7 @@
     padding: 7vw 5vw 2vw 0vw;
 }
 
+/* FOR SMALL MOBILES */
 @media only screen and (max-width: 575.98px){
     .main-section{ padding-top:10vw; padding-bottom: 20vw; top:0; margin-bottom: 0;}
     .main-section .booking{ top:3vw}
@@ -67,10 +74,34 @@
     .main-section .summary{ margin-top: 10vw; font-size: 14px; border-bottom: 2px solid#d4d5d7}
     .main-section .summary .summary-headings, .summary-block, .summary-data{ padding-right: 0 !important; border-bottom: 0px solid #fff !important;}
     .main-section .summary .summary-data{ margin-top: 0px;}
-    .main-section .summary .summary-data p{ font-size: 12.2px !important;}
+    .main-section .summary .summary-data p{ padding-top: 0.8vw; font-size: 12.2px !important;}
     .main-section .total p{ font-size: 14px; padding: 10vw 0vw 4vw}
 }
 
+/* FOR LARGE MOBILES */
 @media only screen and (min-width: 576px) and (max-width: 767.98px){
+    .main-section{ padding:10vw 0vw; top:0; margin-bottom: 0;}
+    .main-section .container{ width: auto !important;}
+    .main-section .booking{ top:3vw}
+    .main-section .booking p{ font-size: 14px; padding: 3.5vw 0vw 3.5vw 2vw;}
+    .main-section .personal-details{ margin-top: 7vw;}
+    .main-section .personal-details .details-block p{ padding-bottom: 1.5vw;}
+    .main-section .summary{ margin-top: 8vw; font-size: 14px; border-bottom: 2px solid#d4d5d7}
+    .main-section .summary .summary-headings, .summary-block, .summary-data{ padding-right: 0 !important; border-bottom: 0px solid #fff !important;}
+    .main-section .summary .summary-data{ margin-top: 0px;}
+    .main-section .summary .summary-data p{padding-top: 0.5vw; font-size: 12.2px !important;}
+    .main-section .total p{ font-size: 14px; padding: 10vw 10vw 4vw}
+}
 
+/* FOR TABS */
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
+    .main-section{ padding-top:10vw; padding-bottom: 20vw; top:0; margin-bottom: 0;}
+    .main-section .booking{ top:3vw}
+    .main-section .booking p{ font-size: 15.5px; padding: 3.5vw 0vw 3.5vw 2vw;}
+    .main-section .personal-details{ margin-top: 5vw;}
+    .main-section .personal-details .details-block p{ padding-bottom: 1vw;}
+    .main-section .summary{ margin-top: 7vw; font-size: 14px; border-bottom: 2px solid#d4d5d7;}
+    .main-section .summary .summary-headings, .summary-block, .summary-data{ padding-right: 0 !important; border-bottom: 0px solid #fff !important;}
+    .main-section .summary .summary-data{ margin-top: 0px;}
+    .main-section .total p{ font-size: 14px; padding: 10vw 5vw 4vw}
 }
