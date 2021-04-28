@@ -1,0 +1,78 @@
+*{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.ftco-navbar-light{
+    position: relative !important;
+}
+.main-section{
+    max-width: 100%;
+    position: relative;
+    top: 2vw;
+    margin-bottom: 7vw;
+    z-index: 1000;
+}
+.main-section .booking{
+    position: relative;
+    background-color: #62c471;
+    top: 1vw;
+    color: white !important;
+}
+.main-section .booking p{
+    padding: 1.3vw;  
+    font-size: 18.5px;
+}
+.main-section .personal-details{
+    color: black;
+    position: relative;
+    top: 2.3vw;
+}
+.main-section .personal-details h5{
+    font-weight: 700;
+    font-size: 17px;
+    padding-bottom: 0.5vw;
+    border-bottom: 2px solid#d4d5d7;
+}
+.main-section .personal-details .details-block p{
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 0.5vw !important;
+}
+.main-section .summary{
+    position: relative;
+    margin-top:4vw;
+    font-weight: 600;
+}
+.main-section .summary .summary-headings{
+    color: black;
+    border-bottom: 2px solid#d4d5d7;
+}
+.main-section .summary .summary-data{
+    margin-top:1.5vw;
+    color: #1b77cb !important;
+    border-bottom: 2px solid#d4d5d7;
+}
+.main-section .total p{
+    color: black;
+    text-align: end;
+    font-weight: 600;
+    padding: 7vw 5vw 2vw 0vw;
+}
+
+@media only screen and (max-width: 575.98px){
+    .main-section{ padding-top:10vw; padding-bottom: 20vw; top:0; margin-bottom: 0;}
+    .main-section .booking{ top:3vw}
+    .main-section .booking p{ font-size: 14px; padding: 3.5vw 0vw 3.5vw 2vw;}
+    .main-section .personal-details{ margin-top: 10vw;}
+    .main-section .personal-details .details-block p{ padding-bottom: 1.5vw;}
+    .main-section .summary{ margin-top: 10vw; font-size: 14px;}
+    .main-section .summary .summary-headings, .summary-block, .summary-data{ padding-right: 0 !important;}
+    .main-section .summary .summary-data p{ font-size: 12.2px !important;}
+    .main-section .total p{ font-size: 14px; padding: 10vw 0vw 4vw}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px){
+
+}
