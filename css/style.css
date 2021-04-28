@@ -66,6 +66,7 @@
     .main-section .personal-details .details-block p{ padding-bottom: 1.5vw;}
     .main-section .summary{ margin-top: 10vw; font-size: 14px; border-bottom: 2px solid#d4d5d7}
     .main-section .summary .summary-headings, .summary-block, .summary-data{ padding-right: 0 !important; border-bottom: 0px solid #fff !important;}
+    .main-section .summary .summary-data{ margin-top: 0px;}
     .main-section .summary .summary-data p{ font-size: 12.2px !important;}
     .main-section .total p{ font-size: 14px; padding: 10vw 0vw 4vw}
 }
