@@ -83,7 +83,7 @@
     .main-section .summary .summary-data{ margin-top: 0px;}
     .main-section .summary .summary-data p{ padding-top: 0.8vw; font-size: 12.2px !important;}
     .main-section .total p{ font-size: 14px; padding: 10vw 0vw 4vw}
-    .ftco-footer .container{ width: 400px !important}
+    .ftco-footer .container{ width: auto !important}
 }
 
 /* FOR LARGE MOBILES */
