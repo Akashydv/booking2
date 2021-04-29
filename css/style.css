@@ -72,7 +72,6 @@
 /* FOR SMALL MOBILES */
 @media only screen and (max-width: 575.98px){
     .main-section{ padding-top:10vw; padding-bottom: 10vw; top:0; margin-bottom: 0;}
-    .main-section .container{ width: auto !important}
     .main-section .booking{ top:3vw}
     .main-section .booking p{ font-size: 14px; padding: 3.5vw 0vw 3.5vw 2vw;}
     .main-section .personal-details{ margin-top: 10vw;}
